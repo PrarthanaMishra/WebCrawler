@@ -1,0 +1,32 @@
+{
+  "name" : "Crawler",
+  "plural" : "Crawler",
+  "base" : "PersistedModel",
+  "idInjection": false,
+	"options": {
+		"validateUpsert": true
+	},
+	"mongodb": {
+		"collection": "crawlingInformation"
+	},
+	"properties" : {
+		"crawlingInformationID": {
+			"type": "String",
+			"generated":true,
+			"id": true
+		},
+		"Name" :{
+			"type":"String"
+		},
+		"Tags":{
+			"type":"String"
+    },
+    "ProgrammingLanguage":{
+			"type":"String"
+    }
+	},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}
