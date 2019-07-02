@@ -1,6 +1,6 @@
 # WebCrawler
 A web crawler
-To run this application following things are required to run.
+To run this application following things are required.
 1. Install mongodb on your local machine.
 2  Create a collection named crawlingInformation.
 3. Need to have node.js installed.
