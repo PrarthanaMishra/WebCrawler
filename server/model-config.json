@@ -39,6 +39,6 @@
     "dataSource": null
   },
   "Crawler": {
-    "dataSource": "db"
+    "dataSource": "mongodb"
   }
 }
